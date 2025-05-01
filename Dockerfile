@@ -6,4 +6,4 @@ EXPOSE 9104
 
 ENTRYPOINT [ "/bin/mysqld_exporter" ]
 CMD [ "--mysqld.address=$HOST:$PORT", \
-    "--mysqld.username=$USER"]
+    "--mysqld.username=$USER", "--mysqld.password=$PASSWORD"]
