@@ -30,10 +30,10 @@ FLUSH PRIVILEGES;
 Environment Variables
 Configure the following environment variables in Railway:
 ```
-DB_HOST - Your MariaDB host (Railway internal URL or external address)
-DB_PORT - MariaDB port (usually 3306)
-DB_USER - Database user created for monitoring
-DB_PASSWORD - User's password
+HOST - Your MariaDB host (Railway internal URL or external address)
+PORT - MariaDB port (usually 3306)
+USER - Database user created for monitoring
+PASSWORD - User's password
 ```
 
 ## Deployment
